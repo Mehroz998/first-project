@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <h1>FORM</h1>
+    <form action="pg3.html">
+       <fieldset> 
+        <label>Name:  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="text" name="us_name" required placeholder="CAPITAL LETTER"/>
+        </label><br/><br/>
+        <label>Father Name:  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="text" name="f_name" required placeholder="CAPITAL LETTER"/>
+        </label><br/><br/>
+        <label>CNIC:  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="tel" name="CNIC" required placeholder="42501-9411719-9"/>
+        </label><br/><br/>
+        <label>Date of Birth:  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="date" name="date_of_birth" required/>
+        </label><br/><br/>
+        <label>Religion:  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="text" name="religion" required/>
+        </label><br/><br/>
+        <label>Address:  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <textarea rows="2" cols="50" name="address"></textarea>
+        </label><br/><br/>
+        <label>Age:  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="number" name="Age" required min="18" max="40"/>
+        </label> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <label>Gender:  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            Male<input type="radio" name="a" value="male" required/> Female<input type="radio" name="a" value="female" required/>
+        </label><br><br>
+        <label>Last Qualification:  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="text" name="Qualification" required/>
+        </label><br/><br/>
+        <label>Passing Year:  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="tel" name="p_year" required/>
+        </label><br/><br/>
+        <label>Skills:  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            MERN STACK<input type="checkbox" name="skill" checked value="MERN"/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Graphic Designer<input type="checkbox" name="skill"  value="graphic"/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Digital Marketing<input type="checkbox" name="skill" value="marketing"/>
+        </label><br/><br/>
+        <label>Upload Your CV: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="file" name="cv" required/>
+        </label><br/><br/>
+        <label>Upload Your Passport size Photo: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="file" name="photo" required/>
+        </label><br><br>
+        <button type="submit" name="submit">SUBMIT</button>
+        <a href="pg1.html"><button type="button">BACK</button></a>
+    </fieldset> 
+    </form>
+</body>
+</html>
